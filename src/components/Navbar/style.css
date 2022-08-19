@@ -1,0 +1,59 @@
+@import url('../../styles/index.css');
+
+.navbar {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-item:nth-child(1) {
+  width: 25%;
+}
+
+.navbar-item:nth-child(2) {
+  width: 50%;
+}
+
+.navbar-item:nth-child(3) {
+  width: 25%;
+  float: right;
+}
+
+.navbar-item ul {
+  list-style: none;
+}
+
+.navbar-item ul li a {
+  text-decoration: none;
+  float: left;
+  padding: 8px 16px;
+  color: #ffffff;
+}
+
+.navbar-item ul li a:hover {
+  background-color: var(--theme-red);
+  color: var(--theme-primary);
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.btn-red-outline {
+
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid var(--theme-red);
+  color: var(--theme-red);
+  border-radius: 8px;
+  float: right;
+}
+
+.btn-red-outline:hover {
+  background-color: var(--theme-red);
+  color: var(--theme-primary);
+}
+
+.navbar-logo {
+  color: var(--theme-red);
+}
